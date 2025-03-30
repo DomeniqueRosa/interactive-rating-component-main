@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+@theme{
+    --color-Orange: hsl(25, 97%, 53%);
+    --color-White: hsl(0, 100%, 100%);
+    --color-Grey-500: hsl(217, 12%, 63%);
+    --color-Grey-900: hsl(213, 19%, 18%);
+    --color-Grey-950: hsl(216, 12%, 8%);
+    --color-Grey-100 : hsl(216, 11%, 27%);
+
+    --font-overpass: "Overpass", sans-serif;
+}
+
+
+body{
+    color: hsl(216, 11%, 27%);
+}
