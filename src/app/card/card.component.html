@@ -9,20 +9,20 @@
             <!-- Rating state start -->
             <div class="w-12 h-12 bg-Grey-100 mb-9 rounded-full  grid place-items-center">
 
-                <img src="/images/icon-star.svg" alt="" class="w-5">
+                <img src="/images/icon-star.svg" alt="" class="w-4">
             </div>
 
             <h1 class="text-3xl text-White">
                 How did we do?
             </h1>
 
-            <div class="text-Grey-500 mt-4">
+            <div class="text-Grey-500 mt-3">
 
                 Please let us know how we did with your support request. All feedback is appreciated
                 to help us improve our offering!
             </div>
 
-            <div class="flex gap-6 my-8 text-White cursor-pointer">
+            <div class="flex gap-7 my-7 text-White cursor-pointer">
 
                 <div *ngFor="let item of numeros" [ngClass]="{'bg-White  text-Grey-950': item === numeroSelecionado }"
                     class="hover:bg-Orange
@@ -41,7 +41,7 @@
 
                 <button
                     
-                    class="cursor-pointer tracking-tighter bg-Orange  hover:bg-White basis-3/3 rounded-full h-11 text-Grey-950 font-bold uppercase">
+                    class="cursor-pointer tracking-[5px] bg-Orange  hover:bg-White basis-3/3 rounded-full h-12 text-Grey-950 font-bold uppercase">
                     Submit
                 </button>
             </div>
